@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -393,4 +394,4 @@ with pd.ExcelWriter(buf, engine="openpyxl") as writer:
 st.download_button("⬇️ Descargar Excel (snapshot)", data=buf.getvalue(), file_name="investor_snapshot.xlsx",
                    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
 
-st.caption("Notas: GRR/NRR mensuales usan el MRR de inicio (mes anterior). YTD compone multiplicando ratios mensuales. Cohorts se aproximan con FIFO sobre New/Lost a
+st.caption("Notas: GRR/NRR mensuales usan el MRR de inicio (mes anterior). YTD compone multiplicando ratios mensuales. Cohorts se aproximan con FIFO sobre New/Lost agregados.")
