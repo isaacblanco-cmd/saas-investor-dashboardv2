@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual envs
+.venv/
+venv/
+
+# Local data (no subir datos privados)
+*.xlsx
+*.xls
+*.csv
+
+# Streamlit
+.streamlit/
