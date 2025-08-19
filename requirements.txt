@@ -1,4 +1,7 @@
 streamlit==1.34.0
 pandas==2.2.2
 numpy==1.26.4
+altair==5.5.0
 openpyxl==3.1.5
+pyarrow==21.0.0
+
